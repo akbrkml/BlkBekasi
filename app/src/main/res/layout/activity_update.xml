@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextid"
+        android:ems="10"
+        android:padding="10pt"
+        android:hint="id anggota"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextnama"
+        android:textStyle="bold"
+        android:padding="10pt"
+        android:hint="Nama Anggota"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textSize="15sp"
+        android:hint="update"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:id="@+id/btnupdate"
+        android:layout_below="@+id/Editnama"
+        android:onClick="clickudate"
+        android:layout_alignStart="@+id/Editnama" />
+</LinearLayout>

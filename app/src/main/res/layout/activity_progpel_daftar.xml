@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PROGRAM PELATIHAN DAFTAR"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/textnamakejuruan"
+        android:padding="20dp"
+        android:background="#dae5d6"/>
+
+
+
+
+    <Spinner
+        android:id="@+id/static_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:ellipsize="marquee"
+        android:textColor="#aa66cc"
+        android:padding="10dp"
+
+        android:textStyle="italic"
+        android:hint="Pilih Kejuruan ..."
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/textView"
+
+        android:foreground="#ffffff"
+        android:background="#e0e4e1">
+
+    </Spinner>
+
+
+
+
+</LinearLayout>

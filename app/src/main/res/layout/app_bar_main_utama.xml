@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.barateknologi.bbplk_cevest.MenuUtama.LokoUtama"
+    android:orientation="vertical"
+
+
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left">
+
+        <ImageView
+
+            android:src="@drawable/ic_menu_home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/home"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentStart="true"
+
+            />
+        <ImageView
+
+            android:src="@drawable/ic_menu_gallery"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/galeri"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/home"
+
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_toEndOf="@+id/galeri"
+            android:src="@drawable/ic_menu_slideshow"
+            android:text="LOKER"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:id="@+id/btnloker"
+            android:onClick="klikloker"
+            style="@style/MyButton.Green"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_menu_slideshow"
+            android:text="DATA LULUSAN"
+            android:textAlignment="center"
+            android:id="@+id/btnlulusa"
+            android:onClick="kliklulusa"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btnloker"
+            style="@style/MyButton.Green"/>
+    </RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

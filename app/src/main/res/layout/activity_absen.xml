@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+
+    >
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:padding="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:background="#FFF"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search..."
+                android:id="@+id/btnmasuk"
+                android:textSize="10dp"
+                android:onClick="kliksearch"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refresh Absen"
+                android:id="@+id/btnblm"
+                android:layout_toEndOf="@+id/btnmasuk"
+                android:textSize="10dp"
+                android:onClick="refreshabsen"
+
+                />
+
+
+
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="#DAE5D6"
+                android:dividerHeight="2dp"
+                android:padding="3pt"
+                android:layout_below="@+id/btnblm"
+
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+
+
+
+
+ </LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/kirim_berita"
+        android:orderInCategory="100"
+        android:title="Tulis Berita"
+        app:showAsAction="never" />
+
+    <item
+
+        android:id="@+id/action_home"
+        android:orderInCategory="200"
+        android:title="home"
+        android:icon="@drawable/beranda"
+        app:showAsAction="always"
+
+        />
+</menu>

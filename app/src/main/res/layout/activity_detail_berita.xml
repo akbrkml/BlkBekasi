@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#fffefe">
+
+    <LinearLayout android:id="@+id/gbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="0dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/kemnaker"
+            android:id="@+id/gambar"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textberita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/gbr"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="atas"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/gbr"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="________________"
+        android:layout_below="@+id/textberita"
+        android:textSize="13sp"
+        android:id="@+id/textketerangan"
+        android:padding="15dp"
+        />
+
+</RelativeLayout>

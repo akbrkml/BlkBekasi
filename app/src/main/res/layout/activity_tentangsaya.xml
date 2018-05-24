@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="RIWAYAT TRANSAKSI"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1. PENDAFTARAN PELATIHAN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Nama  "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/textnama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nama saya "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="email "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/textemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email saya "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Telp/HP "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/texttlp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telp/HP "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Program Pelatihan "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/textprogram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Program Pelatihan "
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2. JADWAL TEST SELEKSI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jadwal Test On Proses "
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btnkonfirmasi"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Saya Akan Hadir Saat Tes"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#79cffc"
+
+
+        />
+
+    <Button
+        android:id="@+id/btngantiprogram"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Saya Mau Ganti Program"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#79cffc"
+
+
+        />
+    </LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="#dae5d6"
+    android:focusableInTouchMode="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PILIH PROGRAM PELATIHAN"
+        style="@style/MyTextViewStyle"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/static_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        style="@style/MyTextViewStyle"
+        android:drawableLeft="@drawable/ic_action_user"
+
+        android:scrollbarStyle="insideOverlay"
+        android:layoutMode="clipBounds"
+        android:longClickable="true"
+        android:spinnerMode="dropdown" />
+
+
+
+            <Button
+
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftar"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#79cffc"
+                android:id="@+id/btnsave"
+
+                android:layout_below="@+id/static_spinner"
+                android:layout_alignStart="@+id/static_spinner" />
+
+
+
+
+</RelativeLayout>
+

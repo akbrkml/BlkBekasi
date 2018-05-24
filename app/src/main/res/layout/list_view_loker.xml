@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background = "#fffefe"
+    android:padding="5dip" >
+
+    <LinearLayout android:id="@+id/gbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="#fffefe"
+        android:layout_marginRight="5dip">
+
+
+       >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/stub"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/gambar"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textidloker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="ID"
+        android:textStyle="bold"
+        style="@style/MyTextViewStyle"
+        android:layout_toEndOf="@+id/gbr"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/textnamaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="nama perusahaan"
+        android:layout_alignTop="@+id/textidloker"
+        android:layout_toEndOf="@+id/gbr" />
+
+    <TextView
+        android:id="@+id/textposisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Posisi"
+        android:layout_below="@+id/textnamaper"
+        android:layout_toEndOf="@+id/gbr" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="______________________isi lowongan____________________"
+         android:layout_marginLeft="10dp"
+         android:textSize="13sp"
+         android:id="@+id/textjudullowongan"
+         android:layout_alignParentEnd="true"
+         android:paddingTop="20dp"
+         android:layout_below="@+id/gbr" />
+
+
+
+</RelativeLayout>

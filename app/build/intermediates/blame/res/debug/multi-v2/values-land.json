@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/akbrkml/AndroidStudioProjects/KONTROL-ABSEN/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/akbrkml/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/bbbdd12f7039fa9bf5d20c1145527554/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/home/akbrkml/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7b89ad46a49131ef12211c6a1dfa92ee/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

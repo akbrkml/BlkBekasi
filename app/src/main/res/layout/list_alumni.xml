@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background = "#fffefe"
+    android:padding="7dip"
+
+    >
+
+    <LinearLayout android:id="@+id/gbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="#fffefe"
+        android:layout_marginRight="5dip"
+
+
+        >
+
+
+       >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:src="@drawable/stub"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#DAE5D6"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentStart="true"
+            android:paddingTop="5dp"
+            android:id="@+id/gambar"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/gbr"
+        android:layout_toRightOf="@+id/gbr"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="atas"/>
+
+
+
+    <TextView
+        android:id="@+id/textket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keterangan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/judul"
+        android:layout_toEndOf="@+id/gbr"
+        android:textSize="12sp"
+        android:shadowColor="#dae5d6"
+        android:textColor="#191970"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ssaya telah bekerja sebagai operator mesin bubut di PT. XYZ selama 1 tahun bagi adik2 yang menginginkan OJT hub saya ya
+        "
+        android:id="@+id/textView4"
+        android:textSize="12sp"
+        android:paddingTop="20dp"
+        android:padding="10dp"
+        android:layout_below="@+id/imgperusahaan"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Ssaya telah bekerja sebagai operator mesin bubut di PT. XYZ selama 1 tahun bagi adik2 yang menginginkan OJT hub saya ya "
+        android:id="@+id/imgperusahaan"
+        android:src="@drawable/cevestbaru"
+        android:layout_below="@+id/gbr"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView4"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background = "#fffefe"
+    android:padding="1dip"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout android:id="@+id/gbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dip"
+        android:layout_alignParentLeft="true"
+        android:background="#fffefe"
+        android:layout_marginRight="5dip">
+
+
+       >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/blank"
+            app:civ_border_width="5dp"
+            app:civ_border_color="#FFFFFF"
+            android:id="@+id/gambar"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+<!--
+
+    <TextView
+        android:id="@+id/textidprog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_below="@+id/textkelas"
+        android:layout_toEndOf="@+id/gbr"
+        android:textSize="16sp"
+android:textStyle="bold"
+
+        />
+-->
+     <TextView
+         android:id="@+id/textnama"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Nama"
+         android:layout_below="@+id/textidprog"
+         android:layout_alignStart="@+id/textidprog"
+         android:layout_toEndOf="@+id/gbr"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         style="@style/MyTextViewStyle"
+         android:gravity="left"
+
+
+         />
+
+    <TextView
+        android:id="@+id/textnmprog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:text="Nama Program Pelatihan"
+        android:layout_below="@+id/textnama"
+        android:layout_alignStart="@+id/textnama" />
+
+
+</RelativeLayout>

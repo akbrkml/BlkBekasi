@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Apr 03 12:45:59 WIB 2018
+1.base=/home/akbar/AndroidStudioProjects/KONTROL-ABSEN/app/build/intermediates/transforms/dexMerger/debug/41
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/home/akbar/AndroidStudioProjects/KONTROL-ABSEN/app/build/intermediates/transforms/dexMerger/debug/42
+1.path=classes.dex

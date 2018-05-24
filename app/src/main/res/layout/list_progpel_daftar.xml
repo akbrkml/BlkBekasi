@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip"
+    android:id="@+id/r1"
+
+
+
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/textidprog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="id program here"
+
+        android:layout_alignTop="@+id/gbr"
+        android:layout_alignStart="@+id/textnamaprog" />
+    <TextView
+        android:id="@+id/textnamaprog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Nama Program Pelatihan"
+        android:layout_below="@+id/textidprog"
+
+        />
+    <TextView
+        android:id="@+id/textidsubjur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Id Sub Kejuruan"
+
+        android:layout_below="@+id/textnamaprog"
+        android:layout_alignStart="@+id/textidprog" />
+
+
+
+
+
+
+</RelativeLayout>

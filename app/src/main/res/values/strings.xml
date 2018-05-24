@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BBPLK-BEKASI KEMNAKER R.I.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Update Version</string>
+
+
+    <string name="visi">Pusat Unggulan, Pusat Pengembangan, dan Pusat Pemberdayaan
+</string>
+   <string name="misi">
+       Meningkatkan Kualitas dan Produktivitas Tenaga Kerja;Mengembangkan Sumber Daya Manusia dan Pelatihan;  
+       Mengembangkan Program dan Manajemen Pelatihan;   Melaksanakan Pelatihan Berbasis Kompetensi;  
+       Melaksanakan Uji Kompetensi; dan Memperluas Jejaring Kerja dengan Lembaga Pelatihan dan Lembaga Penempatan Kerja Lainnya
+</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="brew_array">
+        <item style="bold">Pilih Kejuruan</item>
+        <item>"1",Teknologi Informasi dan Komunikasi</item>
+        <item>"2",Teknik Elektronika</item>
+
+    </string-array>
+
+
+</resources>
